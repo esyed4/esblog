@@ -1,12 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Erfan Syed</title>
-</head>
-<body>
+---
+layout: home
+---
 
-</body>
-</html>
+<section class="page-content">
+  <div class="container">
+    <h1> Recent Posts </h1>
+
+    <ul class="posts-list">
+      {% for post in site.posts limit: 3 %}
+        <li>
+
+          <h2>
+            <a class="post-link" href="{{ post.url }}"> {{ post.title }} </a>
+          </h2>
+          <p class="post-summary">{{post.summary}}</p>
+          <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
+
+
+
+        </li>
+        <hr>
+      {% endfor %}
+    </ul>
+
+  </div>
+</section>
+
