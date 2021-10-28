@@ -5,7 +5,7 @@ date:   2021-10-26 18:15:00 -0500
 categories: jekyll update
 summary: "Scaffolding is used in many beginner guides for Ruby on Rails. What is it, and when should you use it?"
 ---
-Scaffolding in Ruby on Rails is a neat way to automatically generate a base set of view, along with a model and controller. It is a great way to save some time from writing out tedious code every time you are starting on a new application and want a n
+Scaffolding in Ruby on Rails is a neat way to automatically generate a base set of view, along with a model and controller. It is a great way to save some time from writing out tedious code every time you are starting on a new application and want a quick way of generating some code.
 
 
 
